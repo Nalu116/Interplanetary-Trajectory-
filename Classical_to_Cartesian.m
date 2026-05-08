@@ -18,16 +18,10 @@ h = sqrt(mu*(a*(1-(e^2)))); % Specific Angular Momentum
 
 %{
 Note incliniation is 100 degrees, retrograde orbit
-
 First, need to get Eccentric anomaly from M numerically: M = E-esinE
-Took this function directly from "MATLAB Scripts"
 %} 
 
-
-
 E = kepler_E(e, M)
-
-
 
 nu = 2*atan(((((1+e)/(1-e))^(1/2))*tan(E/2)));
 
@@ -78,10 +72,7 @@ vcheck = rssq(vbar) %Root sum square checking vbar (vbar = v, true)
 
 hcheck = cross(rmatrix,vmatrix) %Double checking v and r, to get same h
 
-
-
-% Found this function in Appendix D "MATLAB Scripts" 
-
+% Appendix D "MATLAB Scripts" 
 
 function E = kepler_E(e, M)
 % 
