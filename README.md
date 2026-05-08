@@ -15,7 +15,7 @@ ephem.m and lambert_solver.m are given functions where:
 
 ephem.m pulls and propagates JPL spice data from a .mat file
 
-Lamberts_Problem.m solves Lambert's Problem using Battin's method where user inputs two position vectors, the estimated time of flight, grafitational parameters, and some boundry values for numerical solver.
+lambert_solver.m solves Lambert's Problem using Battin's method where user inputs two position vectors, the estimated time of flight, grafitational parameters, and some boundry values for numerical solver.
 
 EDL where art thou... 
 
