@@ -21,5 +21,9 @@ EDL where art thou...
 
 Side note to anyone viewing, I have some commented out values and/or hard coded inputs for altering missions that aren't very dynamic in its current implementation:
 ex one off: "mumoon = 398600;" %Gravitational Parameter of Earth (km^3/s^2)  (aka don't use this code as a black box and expect good results) 
-<img width="1008" height="543" alt="Atmospheric Entry Velocity" src="https://github.com/user-attachments/assets/c072159e-ecc8-4044-89e9-276d563a2ae2" />
+
+Lunar Parking orbit to Mars Transfer C3 Pork Chop Plotted over 2 Synodic Periods 
 <img width="1008" height="595" alt="Moon to Mars C3" src="https://github.com/user-attachments/assets/d2a9190c-7ebb-45d3-96ff-f9adde60a7c7" />
+
+Mars Atmospheric Entry Plot
+<img width="1008" height="543" alt="Atmospheric Entry Velocity" src="https://github.com/user-attachments/assets/c072159e-ecc8-4044-89e9-276d563a2ae2" />
