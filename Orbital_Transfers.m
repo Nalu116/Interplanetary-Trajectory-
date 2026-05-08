@@ -1,7 +1,3 @@
-%{
-Caden N. Dennis Orbital Transfers
-%}
-
 clear all
 close all
 clc
